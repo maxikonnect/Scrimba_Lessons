@@ -1,0 +1,25 @@
+.container{
+    border: 5px solid rgb(200, 150, 50);
+    text-align:center;
+    width: 400px;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    margin-top: 50px;
+    display: flex;
+  }
+  
+  
+  .container > div{
+    
+    padding: 10px 0;
+    
+  }
+  
+  .container >div:nth-child(odd){
+    background-color: green;
+  }
+  .container > div:nth-child(even){
+    background-color: yellow;
+    
+  }
+  
